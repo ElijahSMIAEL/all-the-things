@@ -131,12 +131,12 @@ const App = () => {
 
   const [elijahsThings, setElijahsThings] = useState([
     {
-      name: "Bass Guitar",
+      name: "Haley",
       image: "https://imgs.xkcd.com/comics/functional.png",  
-      attributes: ["sexy", "funky", "fun", "challenging"],
+      attributes: ["cute", "funky", "fun", "goofy"],
     },
   ])
-  
+
   const [eddiesThings, setEddiesThings] = useState([
     {
       name: "cool stuff",
