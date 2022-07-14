@@ -129,6 +129,14 @@ const App = () => {
     },
   ])
 
+  const [kairosThings, setKairosThings] = useState([
+    {
+      name: "design",
+      image: "https://imgs.xkcd.com/comics/design.png",  
+      attributes: [ "beautiful"],
+    },
+  ])
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
