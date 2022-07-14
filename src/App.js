@@ -129,6 +129,15 @@ const App = () => {
     },
   ])
 
+  const [kairosThings, setKairosThings] = useState([
+    {
+      name: "design",
+      image: "https://imgs.xkcd.com/comics/design.png",  
+      attributes: [ "beautiful"],
+    },
+  ])
+  
+
   const [elijahsThings, setElijahsThings] = useState([
     {
       name: "Haley",
