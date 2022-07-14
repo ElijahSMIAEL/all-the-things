@@ -129,6 +129,14 @@ const App = () => {
     },
   ])
 
+  const [elijahsThings, setElijahsThings] = useState([
+    {
+      name: "Bass Guitar",
+      image: "https://imgs.xkcd.com/comics/functional.png",  
+      attributes: ["sexy", "funky", "fun", "challenging"],
+    },
+  ])
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
